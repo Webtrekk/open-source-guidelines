@@ -1,4 +1,4 @@
-# yetu Open Source Guidelines
+# Webtrekk Open Source Guidelines
 
 The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED",  "MAY", and "OPTIONAL" in this document are to be interpreted as described in [RFC 2119](http://www.ietf.org/rfc/rfc2119.txt)
 
@@ -8,19 +8,18 @@ A project in this guideline is a piece of code, script,  whole project, an execu
 
 
 ## Open Source Project Candidate
-
-yetu is committed to contribute every tool and general purpose component to the community. What qualifies as tool or general purpose component is defined as follows:
+Webtrekk is committed to contribute every tool and general purpose component to the community. What qualifies as tool or general purpose component is defined as follows:
 
 * A tool is a program that is employed in the development, repair, or enhancement of other programs or of hardware as well as any program that can assist in all activities of all phases of the software life cycle, including management and quality-assurance activities. Thus a comprehensive set would address such issues as requirements specification, design, validation, configuration control, and project management. Examples of tools are a text editor, compiler, link loader, debugger.
 
-* A general purpose component is any software component that solves a general problem of software engineering like layouting, rendering, encryption, file generation, compression etc. It MUST be possible to reuse the component without any knowledge about the yetu system. yetu MUST be able to incorporate the given component without any special changes.
+* A general purpose component is any software component that solves a general problem of software engineering like layouting, rendering, encryption, file generation, compression etc. It MUST be possible to reuse the component without any knowledge about the Webtrekk system. Webtrekk MUST be able to incorporate the given component without any special changes.
 
-Furthermore, the project SHOULD be tested automatically after each commit, and the code in the project SHOULD follow the given coding guidelines [TO BE ADDED].
+Furthermore, the project SHOULD be tested automatically after each commit, and the code in the project SHOULD follow the company specific coding guidelines.
 
 
 ## Distribution
 * Project MUST be publicly available on a software development hosting service, in this case [github.com](http://github.com)
-* The project MUST be licensed under [MIT](http://opensource.org/licenses/MIT), [LGPL 2.1](http://opensource.org/licenses/LGPL-2.1) or higher and every project MUST include license text in each text file and the main directory.
+* The project MUST be licensed under [MIT](http://opensource.org/licenses/MIT), [LGPL 2.1](http://opensource.org/licenses/LGPL-2.1) or higher and every project MUST include license text in each text file and the main directory. Licence text can be found in this repository, please refer to LICENSE-MIT.md or LICENSE-LGPL-2.1.md 
 * The project SHOULD have unit tests. A project that fails any unit tests SHOULD not be publicly available to anyone.
 * Build automation tools SHOULD be used (e.g. sbt, maven, RubyGems, npm)
 * Examples of usage SHOULD be provided
