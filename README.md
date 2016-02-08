@@ -19,7 +19,7 @@ Furthermore, the project SHOULD be tested automatically after each commit, and t
 
 ## Distribution
 * Project MUST be publicly available on a software development hosting service, in this case [github.com](http://github.com)
-* The project MUST be licensed under [MIT](http://opensource.org/licenses/MIT), [LGPL 2.1](http://opensource.org/licenses/LGPL-2.1) or higher and every project MUST include license text in each text file and the main directory. Licence text can be found in this repository, please refer to LICENSE-MIT.md or LICENSE-LGPL-2.1.md 
+* The project MUST be licensed under [MIT](http://opensource.org/licenses/MIT), [LGPL 2.1](http://opensource.org/licenses/LGPL-2.1) or higher and every project MUST include license text in each text file and the main directory. Licence text can be found in this repository, please refer to [LICENSE-MIT.md](LICENSE-MIT.md) or [LICENSE-LGPL-2.1.md](LICENSE-LGPL-2.1.md)
 * The project SHOULD have unit tests. A project that fails any unit tests SHOULD not be publicly available to anyone.
 * Build automation tools SHOULD be used (e.g. sbt, maven, RubyGems, npm)
 * Examples of usage SHOULD be provided
