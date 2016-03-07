@@ -7,3 +7,4 @@ Contributors (sorted alphabeticaly)
 * [Engin Yoeyen](https://github.com/enginyoyen)
 * Jacob Fahrenkrug
 * [Joé Schaul](https://github.com/jschaul)
+* [Till Machens](https://github.com/c76)

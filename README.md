@@ -2,6 +2,8 @@
 
 The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED",  "MAY", and "OPTIONAL" in this document are to be interpreted as described in [RFC 2119](http://www.ietf.org/rfc/rfc2119.txt)
 
+## License
+This Open Source Guidelines Project is publicly available and its usage and modification terms are written down in the [MIT LICENSE](LICENSE-MIT.md) document.
 
 ## Definition of a Project
 A project in this guideline is a piece of code, script,  whole project, an executable software, how-to, documentation, solution to certain problem (not necessarily code)  that is considered to be open source.
@@ -17,12 +19,26 @@ Webtrekk is committed to contribute every tool and general purpose component to 
 Furthermore, the project SHOULD be tested automatically after each commit, and the code in the project SHOULD follow the company specific coding guidelines.
 
 
+## Publishing Process Requirements
+In order to define a proper process, which prevents harming Webtrekk's business and provides maximum clearity and visibility to all internal stake holders the following rules need to be applied to every project candidate:
+
+* A named maintainer for the project MUST be willing to keep the issues list clean and answer to questions from contributors or users.
+
+* At least one other person in the Webtrekk team MUST review the project prior to release.
+
+* After release of the project, other developers in the company SHOULD be notified.
+
+* The Webtrekk Tech Leads Board may decide on vetoing the project due to business interests. So candidate projects must be promoted for publishing. If no veto was spoken out, the maintainer is free to publish the project with respect to the rules given in this document.
+
+
+
 ## Distribution
-* Project MUST be publicly available on a software development hosting service, in this case [github.com](http://github.com)
-* The project MUST be licensed under [MIT](http://opensource.org/licenses/MIT), [LGPL 2.1](http://opensource.org/licenses/LGPL-2.1) or higher and every project MUST include license text in each text file and the main directory. Licence text can be found in this repository, please refer to [LICENSE-MIT.md](LICENSE-MIT.md) or [LICENSE-LGPL-2.1.md](LICENSE-LGPL-2.1.md)
+* The project MUST be publicly available on a software development hosting service, in this case [github.com](http://github.com/Webtrekk) as project owned by the Webtrekk organization.
+* The project MUST be licensed under [MIT](http://opensource.org/licenses/MIT), [LGPL 2.1](http://opensource.org/licenses/LGPL-2.1) or higher and every project MUST include license text in each text file and the main directory. Licence text can be found in this repository, please refer to [LICENSE-MIT.md](LICENSE-MIT.md) or [LICENSE-LGPL-2.1.md](LICENSE-LGPL-2.1.md).
+* The project MUST have a properly formated README.md file (Github style) with references to license and further documentation.
 * The project SHOULD have unit tests. A project that fails any unit tests SHOULD not be publicly available to anyone.
-* Build automation tools SHOULD be used (e.g. sbt, maven, RubyGems, npm)
-* Examples of usage SHOULD be provided
+* Build automation tools SHOULD be used (e.g. sbt, maven, RubyGems, npm).
+* Examples of usage SHOULD be provided.
 
 
 
@@ -46,23 +62,19 @@ condimentum, ut porttitor est vulputate.
 
 
 ## Documentation
-* The project MUST have a README page.
+* The project MUST have a README.md file for auto-generation of a README page.
 * The code MUST carry name of the authors.
 * The code SHOULD be well documented with relevant API documentation tools (e.g. JavaDoc, Doxygen).
-* The project MAY have a wiki page, installation notes, change logs ([for instance](CHANGELOG.md)),  known issues and bugs.
+* The project MAY have a wiki page, installation notes, change logs ([for instance](CHANGELOG.md)), known issues and bugs.
 * The project MAY have an issue tracker.
 
 
 ## Contribution
 We welcome community contributions, each project SHOULD contain relevant information regarding contributions rules. See [How to Contribute](CONTRIBUTING.md).
 
+
 ## Contributors
 Each project MAY contain relevant information regarding contributors. See [Contributors](CONTRIBUTORS.md).
-
-
-## Review
-* At least one other person in the team MUST review the project prior to release.
-* After the release of the project, other developers in the company SHOULD be notified.
 
 
 ## Checklist
